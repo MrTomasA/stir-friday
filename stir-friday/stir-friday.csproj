@@ -92,6 +92,7 @@
     <Content Include="ideas.txt" />
     <Content Include="img\cartoon-tom.svg" />
     <Content Include="img\hour-cog.jpg" />
+    <Content Include="img\strava.svg" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.3.3.7.js" />
     <Content Include="js\bootstrap.3.3.7.min.js" />

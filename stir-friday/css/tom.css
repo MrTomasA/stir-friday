@@ -24,13 +24,13 @@ html {
     background: #f33137;
 }
 .margin-top-100 {
-	margin-top: 100px;
+    margin-top: 100px;
 }
 .margin-top-50 {
-	margin-top: 50px;
+    margin-top: 50px;
 }
 .info-section {
-	margin-top: 250px;
+    margin-top: 250px;
 }
 
 
@@ -39,6 +39,15 @@ html {
 
 
 
+.about-logo {
+    max-width: 250px;
+    background-color: #35373a;
+}
+@media (min-width: 450px) {
+    .about-logo {
+        max-width: none;
+    }
+}
 .about-me .about-me-icon {
     text-align: center;
     position: relative;
@@ -72,7 +81,6 @@ html {
 }
 
 
-
 h1,
 h2,
 h3,
@@ -94,11 +102,11 @@ p {
     line-height: 1.6;
   }
 }
-a {
+a,
+a:focus {
     color: #ffffff;
 }
-a:hover,
-a:focus {
+a:hover {
     color: rgba(255, 255, 255, 0.8);
     color: rgba(255, 255, 255, 0.8);
 }
@@ -168,7 +176,6 @@ a:focus {
 
 
 
-
 .intro {
     display: table;
     width: 100%;
@@ -208,17 +215,12 @@ a:focus {
 
 
 
-
-.about-logo {
-    max-width: 250px;
-    background-color: #35373a;
+.strava {
+    padding-bottom: 7px;
 }
-@media (min-width: 450px) {
-    .about-logo {
-        max-width: none;
-    }
+.strava:hover {
+    border-bottom: 5px solid #fc4c02;
 }
-
 
 
 
