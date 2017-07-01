@@ -16,6 +16,9 @@
     <link href="css/a-love-of-thunder.css" rel="stylesheet" type="text/css">
     <link href="css/tom.css" rel="stylesheet" />
 
+    <!-- Font Awesome Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,10 +33,10 @@
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="glyphicon glyphicon-menu-hamburger"></i>
+                    Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="glyphicon glyphicon-ok-circle"></i> <span>TomStiernagle</span>
+                    <i class="fa fa-check-circle-o"></i> <span>TomStiernagle</span>
                 </a>
             </div>
 
@@ -46,6 +49,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#thoughts">Thoughts</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#misc">Misc</a>
@@ -67,15 +73,15 @@
     <header class="intro">
         <div class="container intro-body">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-sm-8 col-sm-offset-2">
                     <h1 class="brand-heading">I'm Tom.<br />And I bike.</h1>
                     <p class="intro-text">
-                        I'm also a developer by day. This is my personal playground that I use to test anything and everything!
+                        I'm also a developer by day. This is my personal website and playground!
                     </p>
                     <a href="#about" class="page-scroll">
-                        <i class="glyphicon glyphicon-menu-down animated"></i>
+                        <i class="fa fa-cog" aria-hidden="true"></i>
                         <div class="row">
-                            Explore More
+                            Show Me More
                         </div>
                     </a>
                 </div>
@@ -85,41 +91,157 @@
 
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <img class="about-logo" src="img/cartoon-tom.svg" />
+        <div class="row margin-top-100">
+            <div class="col-md-12">
+                <h2>About</h2>
+                <div class="about-head col-sm-10 col-sm-offset-1">
+                    <div class="row">
+                        <img class="about-logo" src="img/cartoon-tom.svg" />
+                    </div>
+                    <p>Minneapolis Native. What gave it away? Here is just a taste of the various different things that make me tick.</p>
                 </div>
-                Minneapolis Native. What gave it away?
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="col-sm-6">
+                        <div class="about-me">
+                            <div class="about-me-icon">
+                                <a title="Biking" class="rusty-bg"><i class="fa fa-bicycle" aria-hidden="true"></i></a>
+                                <div class="about-me-data">
+                                    <h2>Biking</h2>
+                                    <p>Love on two wheels.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="about-me">
+                            <div class="about-me-icon">
+                                <a title="Tap Rooms" class="rusty-bg"><i class="fa fa-beer" aria-hidden="true"></i></a>
+                                <div class="about-me-data">
+                                    <h2>Tap Rooms</h2>
+                                    <p>Beer. Need I say more? Didn't think so.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="about-me">
+                            <div class="about-me-icon">
+                                <a title="Coffee" class="rusty-bg"><i class="fa fa-coffee" aria-hidden="true"></i></a>
+                                <div class="about-me-data">
+                                    <h2>Coffee</h2>
+                                    <p>I love my coffee. I love it hot. I love it black. Just don't catch me before my morning java!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="about-me">
+                            <div class="about-me-icon">
+                                <a title="Hot Sauce" class="rusty-bg"><i class="fa fa-fire" aria-hidden="true"></i></a>
+                                <div class="about-me-data">
+                                    <h2>Hot Sauce</h2>
+                                    <p>Frank's is prime. I put that SH*T on everything! And if you haven't tried Valentina, you need to.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="about-me">
+                            <div class="about-me-icon">
+                                <a title="N64" class="rusty-bg"><i class="fa fa-gamepad" aria-hidden="true"></i></a>
+                                <div class="about-me-data">
+                                    <h2>N64</h2>
+                                    <p>Mario Kart. Goldeneye. Super Mario. Star Fox. Zelda. Super Smash Bros. Mario Party.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="about-me">
+                            <div class="about-me-icon">
+                                <a title="BBQing" class="rusty-bg"><i class="fa fa-cutlery" aria-hidden="true"></i></a>
+                                <div class="about-me-data">
+                                    <h2>BBQing</h2>
+                                    <p>I'm talking about slow smoking pork shoulders over 12 hours. Not grilling. Grilling is fine, BBQing is better!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="about-me">
+                            <div class="about-me-icon">
+                                <a title="Breaking Bad" class="rusty-bg"><i class="fa fa-flask" aria-hidden="true"></i></a>
+                                <div class="about-me-data">
+                                    <h2>Breaking Bad</h2>
+                                    <p>"Say my name." It's the best TV show ever made. No arguments.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="about-me">
+                            <div class="about-me-icon">
+                                <a title="Skiing" class="rusty-bg"><i class="fa fa-snowflake-o" aria-hidden="true"></i></a>
+                                <div class="about-me-data">
+                                    <h2>Skiing</h2>
+                                    <p>Mountains in Minnesota? Noooooope! Gotta get out west for the real thing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <div class="about-me">
+                            <div class="about-me-icon">
+                                <a title="Star Wars" class="rusty-bg"><i class="fa fa-rocket" aria-hidden="true"></i></a>
+                                <div class="about-me-data">
+                                    <h2>Star Wars</h2>
+                                    <p>A New Hope. Empire Strikes Back. Return of the Jedi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 
+    <!-- Thoughts Section -->
+    <section id="thoughts" class="container content-section text-center">
+        <div class="row info-section">
+            <div class="col-md-10 col-md-offset-1">
+                <h2>Thoughts</h2>
+                <p>Headwinds - How Drunk Are You</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Misc Section -->
     <section id="misc" class="container content-section text-center">
-        <div class="row placeholder">
+        <div class="row info-section">
             <div class="col-md-10 col-md-offset-1">
-                <span class="misc">Misc.</span>
+                <h2>Misc.</h2>
             </div>
         </div>
     </section>
 
     <!-- Resume Section -->
     <section id="resume" class="container content-section text-center">
-        <div class="row placeholder">
-            <div class="col-md-10 col-md-offset-1">
-                <span class="resume">Resume</span>
+        <div class="row info-section">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h2>Resume</h2>
+                <p><a href="#resume"><i class="fa fa-file-pdf-o"></i> fancy pdf here...</a></p>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
-        <div class="row placeholder">
-            <div class="col-md-10 col-md-offset-1">
-                <span class="contact">Contact</span>
-                <p class="legal margin-top-100">I'm Tom<br />And I'm Developer</p>
+        <div class="row info-section">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h2>Contact</h2>
+                <p>Let me know what's on your mind. Send me a funny joke, ask me a question, inquire about getting my help, or anything else. The possibilities are truly endless!</p>
+                <p><a href="mailto:stiernaglet@gmail.com">stiernaglet@gmail.com</a></p>
             </div>
         </div>
     </section>
@@ -127,7 +249,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Tom Stiernagle 2017</p>
+            <p>Designed and Written by Tom Stiernagle</p>
         </div>
     </footer>
 
