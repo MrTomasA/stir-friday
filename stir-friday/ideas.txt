@@ -27,3 +27,7 @@ Changing Images
 Fixed Cog Picture On Top
 Spinning Cog Animation
 Headwinds - How Drunk
+Digital Resume
+Light backgroud, button to go dark
+Intro loading animation
+Traffic tracking/cookies

@@ -212,10 +212,35 @@ a:hover {
 
 
 
+.problem {
+    padding-top: 100px;
+    text-align: center;
+}
+.problem a:hover .problem-logo {
+    opacity: 0.8;
+}
+.problem-logo {
+    width: 150px;
+}
+@media (min-width: 768px) {
+    .problem-logo {
+        width: 500px;
+    }
+}
+.problem .brand-heading {
+    font-size: 60px;
+}
+.problem .problem-text {
+    font-size: 26px;
+}
+
+
+
 .strava {
     padding-bottom: 7px;
 }
-.strava:hover {
+.strava:hover,
+.strava:focus {
     border-bottom: 4px solid #fc4c02;
 }
 
